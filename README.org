@@ -1,0 +1,3 @@
+* builderdemo
+
+Some classes and unit tests for playing with using [[https://projectlombok.org][lombok]] to generate boilerplate code for JavaBeans and JavaBean builders.
