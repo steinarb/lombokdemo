@@ -28,4 +28,18 @@ class PersonTest {
         assertNull(bean.getAge());
     }
 
+    @Test
+    void testCopyAndMutate() {
+        String name = "John Doe";
+        Integer age = 42;
+        Person bean = Person.builder()
+            .name(name)
+            .age(age)
+            .build();
+        Integer oldAge = 65;
+        var olderBean = bean.toBuilder().age(oldAge).build();
+        assertEquals(name, olderBean.getName());
+        assertEquals(oldAge, olderBean.getAge());
+    }
+
 }
