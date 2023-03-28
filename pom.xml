@@ -7,7 +7,7 @@
     <description>Experiment with using lombok to create bean builders</description>
 
     <properties>
-        <lombok.version>1.18.22</lombok.version>
+        <lombok.version>1.18.26</lombok.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <mockito.version>4.2.0</mockito.version>
         <assertj.version>3.22.0</assertj.version>
